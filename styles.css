@@ -1,0 +1,73 @@
+body{
+   font-family: "Roboto", sans-serif;
+   background: black;
+}
+
+.post{
+   background: white;   
+   margin: 0;
+   width: 600px;
+}
+
+.icons-left{
+   display: flex;
+}
+
+h6, p {
+   margin: 0;
+   margin-top: 5px;
+}
+
+i {
+   font-size: 30px;
+   margin: 10px;
+}
+
+.post-header{
+   display: flex;
+   justify-content: space-between;
+}
+
+.left-header{
+   display: flex;
+}
+
+.left-header i {
+   margin-right: 5px;
+}
+
+.post-img img{
+   width: 100%;
+   object-fit: cover;
+}
+
+.icons{
+   display: flex;
+   justify-content: space-between;
+}
+
+.icons div{
+   display: flex;
+   margin-right: 5px;
+}
+
+.post-body{
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 20px;
+}
+
+
+ .fa-solid{
+   align-items: end;
+ }
+
+ .fa-regular .fa-heart{
+   display: flex;
+   align-items: start
+}
+
+.post-icons {
+   display: flex;
+   justify-content: space-between;
+}
